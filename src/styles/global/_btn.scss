@@ -1,0 +1,21 @@
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  $h: 60rpx;
+  font-size: 26rpx;
+  height: $h;
+  line-height: $h;
+  text-align: center;
+  background-color: #136ee3;
+  border-radius: 6rpx;
+  padding: 0 15rpx;
+  color: #ffffff;
+  &.disabled {
+    background: #136ee3;
+    color: #5a9aeb;
+  }
+  &.done {
+    background: #dfdfdf;
+    color: #999999;
+  }
+}
